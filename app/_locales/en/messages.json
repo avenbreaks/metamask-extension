@@ -2253,6 +2253,12 @@
   "nft": {
     "message": "NFT"
   },
+  "nftCollectionName": {
+    "message": "Name of collection"
+  },
+  "nftInfoTooltipText": {
+    "message": "You should have a good reason for doing an approval for all NFTs. It should not be your default."
+  },
   "nftTokenIdPlaceholder": {
     "message": "Enter the token id"
   },
@@ -2482,12 +2488,19 @@
   "notificationsMarkAllAsRead": {
     "message": "Mark all as read"
   },
+  "numberOfNFTsFromCollection": {
+    "message": "All ($1) + Future NFTs",
+    "description": "$1 is the number of NFTs from collection that are owned by the user"
+  },
   "numberOfNewTokensDetectedPlural": {
     "message": "$1 new tokens found in this account",
     "description": "$1 is the number of new tokens detected"
   },
   "numberOfNewTokensDetectedSingular": {
     "message": "1 new token found in this account"
+  },
+  "numberOfNfts": {
+    "message": "No. of NFTs"
   },
   "ofTextNofM": {
     "message": "of"
@@ -4249,6 +4262,9 @@
   "verifyThisUnconfirmedTokenOn": {
     "message": "Verify this token on $1 and make sure this is the token you want to trade.",
     "description": "Points the user to etherscan as a place they can verify information about a token. $1 is replaced with the translation for \"etherscan\""
+  },
+  "view": {
+    "message": "View"
   },
   "viewAccount": {
     "message": "View account"
