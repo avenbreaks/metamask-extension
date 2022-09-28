@@ -1,4 +1,4 @@
-import BN from 'bn.js';
+import BigNumber from 'bignumber.js';
 import { toBuffer } from './buffer-utils';
 
 describe('buffer utils', function () {
@@ -23,8 +23,8 @@ describe('buffer utils', function () {
       expect(result).toHaveLength(4);
     });
 
-    it('should work with BN', function () {
-      const result = toBuffer(new BN(100));
+    it('should work with BigNumber', function () {
+      const result = toBuffer(new BigNumber(100));
       expect(result).toHaveLength(1);
     });
 
