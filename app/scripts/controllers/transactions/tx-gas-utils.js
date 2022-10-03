@@ -98,8 +98,8 @@ export default class TxGasUtil {
   addGasBuffer(initialGasLimitHex, blockGasLimitHex, multiplier = 1.5) {
     const initialGasLimitBn = hexToBigNumber(initialGasLimitHex);
     const blockGasLimitBn = hexToBigNumber(blockGasLimitHex);
-    const upperGasLimitBn = blockGasLimitBn.muln(0.9);
-    const bufferedGasLimitBn = initialGasLimitBn.muln(multiplier);
+    const upperGasLimitBn = blockGasLimitBn.mul(0.9);
+    const bufferedGasLimitBn = initialGasLimitBn.mul(multiplier);
 
     // if initialGasLimit is above blockGasLimit, dont modify it
     if (initialGasLimitBn.gt(upperGasLimitBn)) {

@@ -76,7 +76,7 @@ const getPlatform = () => {
  * @returns {object} A BigNumber object
  */
 function hexToBigNumber(inputHex) {
-  return new BigNumber(stripHexPrefix(inputHex), 16);
+  return new BigNumber(stripHexPrefix(inputHex || '0x0'), 16);
 }
 
 /**
