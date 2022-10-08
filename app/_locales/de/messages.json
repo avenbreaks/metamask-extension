@@ -1504,7 +1504,7 @@
     "message": "Ether holen"
   },
   "getEtherFromFaucet": {
-    "message": "Ether für $1 vom Faucet holen",
+    "message": "Ether für das $1-Netzwerk von einem Faucet holen.",
     "description": "Displays network name for Ether faucet"
   },
   "getStarted": {
@@ -2287,7 +2287,7 @@
     "message": "Die verbesserte Token-Erkennung ist derzeit in den Netzwerken Ethereum Mainnet, Polygon, BSC und Avalanche verfügbar. Es gibt bald mehr!"
   },
   "notifications10DescriptionThree": {
-    "message": "Die Token-Erkennungsfunktion ist standardmäßig eingeschaltet. Sie können sie jedoch in den Einstellungen deaktivieren."
+    "message": "Die Token-Erkennungsfunktion ist derzeit standardmäßig NICHT eingeschaltet. Sie können sie jedoch in den Einstellungen aktivieren."
   },
   "notifications10DescriptionTwo": {
     "message": "Wir beziehen Token von Token-Listen Dritter. Token, die in mehr als zwei Token-Listen aufgeführt sind, werden automatisch erkannt."
@@ -4285,7 +4285,7 @@
     "message": "Erkunden dezentraler Apps"
   },
   "welcomeLoginDescription": {
-    "message": "Verwenden Sie MetaMask, um sich bei dezentralen Apps anzumelden - keine Anmeldung erforderlich."
+    "message": "Verwenden Sie MetaMask, um sich bei dezentralen Apps anzumelden – keine Anmeldung erforderlich."
   },
   "welcomeLoginTitle": {
     "message": "Sagen Sie Hallo zu Ihrer Wallet"
